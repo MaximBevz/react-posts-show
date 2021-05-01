@@ -7,13 +7,21 @@
   &-main {
     width: 300px;
     border: 1px solid black;
-    padding: 10px 10px 30px;
+    padding: 10px;
     border-radius: 10px;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   &-title {
     text-transform: capitalize;
     margin-bottom: 30px;
+  }
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
   }
   &-btn {
     border: none;
@@ -22,11 +30,11 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.4s all;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
     &:hover {
       background-color: green;
     }
+  }
+  &-id {
+    color: white;
   }
 }

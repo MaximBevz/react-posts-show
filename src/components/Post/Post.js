@@ -8,10 +8,13 @@ export default function Post({postTitle, showInfo}) {
         <li className='post-list-item'>
             <div className='post-list-main'>
                 <h4 className='post-list-title'>{title}</h4>
-                <button
-                    className='post-list-btn'
-                    onClick={() => showInfo(id)}
-                >More Info</button>
+                <div className='post-list-wrapper'>
+                    <button
+                        className='post-list-btn'
+                        onClick={() => showInfo(id)}
+                    >More Info</button>
+                    <span className='post-list-id'>{id}</span>
+                </div>
             </div>
         </li>
     );

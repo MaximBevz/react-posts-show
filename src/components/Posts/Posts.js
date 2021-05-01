@@ -19,7 +19,7 @@ export default function Posts() {
     const showInfo = (id) => {
         const onePost = posts.find(el => el.id === id);
 
-        setPost(onePost.body);
+        setPost(onePost);
     }
 
     const clearInfo = () => {
