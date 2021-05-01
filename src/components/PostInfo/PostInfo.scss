@@ -1,0 +1,28 @@
+.post-info {
+  position: relative;
+  &-body {
+    width: 400px;
+    margin-left: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    height: 400px;
+    position: fixed;
+    left: 30%;
+  }
+  &-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s all;
+    &:hover {
+      background-color: darkred;
+    }
+  }
+}

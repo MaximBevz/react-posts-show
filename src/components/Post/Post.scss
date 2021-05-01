@@ -1,0 +1,32 @@
+.post-list {
+  &-item {
+    display: flex;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  &-main {
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px 10px 30px;
+    border-radius: 10px;
+    background-color: black;
+  }
+  &-title {
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  }
+  &-btn {
+    border: none;
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s all;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    &:hover {
+      background-color: green;
+    }
+  }
+}
