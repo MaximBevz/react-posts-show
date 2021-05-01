@@ -26,7 +26,7 @@ export default function Posts() {
         if(post !== null) {
             setPost(post = null);
         }
-        return
+        return;
     }
 
     return (
